@@ -2,3 +2,6 @@ image:
   file: Dockerfile
 tasks:
   - init: firefox
+ports:
+  - port: 6080
+    onOpen: open-browser
